@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply h-7 hover:scale-125 cursor-pointer transition-all duration-150 ease-out;
+  }
+
+  .appContainer {
+    @apply bg-slate-700 rounded-md max-w-fit max-h-fit mx-auto shadow-md shadow-black m-4 p-2;
+  }
+}
